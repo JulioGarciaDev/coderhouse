@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.005); }
+
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  width: 100%; }
+  .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 70px; }
+    .container .menu h1 {
+      margin-left: 2rem; }
+    .container .menu nav {
+      margin-right: 2rem; }
+    .container .menu a {
+      margin: 0 1em 0 1em; }
+  .container .main {
+    background-color: #5ad6c7;
+    width: 100%;
+    height: 400px;
+    color: white; }
+    .container .main h2 {
+      font-size: 3rem;
+      font-weight: 300;
+      margin-left: 4rem;
+      padding-top: 4rem; }
+    .container .main button {
+      border-style: none;
+      background-color: transparent;
+      padding: 0.7em 1.6em;
+      margin-left: 4rem;
+      margin-top: 2rem;
+      border-radius: 3em;
+      border: 1px solid white;
+      color: white;
+      font-weight: bold; }
+  .container .modulos {
+    width: 100%;
+    padding: 3em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; }
+    .container .modulos .modulitos {
+      width: 33%;
+      height: 243px;
+      margin: 1em;
+      padding: 1em;
+      background-color: #06404a; }
+    .container .modulos h3 {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 300; }
+    .container .modulos p {
+      color: white;
+      font-weight: 300;
+      font-size: 0.8em; }
+
+/*# sourceMappingURL=style.css.map */
